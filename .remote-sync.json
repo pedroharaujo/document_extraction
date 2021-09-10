@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "paris",
+  "target": "/mnt/DADOS_PARIS_1/pedroa/MPMG/document_extraction",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "pedroa",
+  "password": "pedroa@patreo",
+  "watch": [],
+  "transport": "scp"
+}
